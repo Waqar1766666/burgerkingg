@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+/*by selecting body and background colour i am now able to chnage the background colour of the entire document*/
+body {background-color: #f5ebdd;}
+
+
+/*this allows me to focus on all the a classes within the navigation bar, i can then edit them in many ways for example here i have chnaged the font to what i want it to and it will show on the website*/
+a {
+    text-decoration:none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: black;
+}
+/*this CSS allows for me to keep the 2x2 table in the centre*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: center;
+}
+
+th { 
+text-align: left;
+
+}
+
+table, th, td {
+  border: 1px solid;
+color: none;
+}
+
+h1{
+	height: 800px;
+}
+
+h2 {
+    background-color: #f0e0cb;
+    height: 600px;
+    text-align: right;	
+}
+
+h3 {
+	background-color: #300404;
+	max-height:inherit;
+}
+
+p5 {
+	
+	text-align: right;
+	
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: none;
+  font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+
+/*customize the navigation bar and its properities*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .Basketbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: #F67300;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+	
+}
+
+.Basketbtn:hover {
+	
+color: white;
+background: #35FD00;
+}
+
+
+
+
+.news:hover {
+	color: red;
+}
+.menu:hover{
+	color: red;
+}
+.home:hover {
+	color: red;
+}
+.delivery:hover{
+	color: red;
+}
+.more:hover {
+	color: red;
+}
+.signin {
+	float: right;
+	background-color: red;
+	color: white;
+}
+
+
+#BKI:hover {
+	
+	text-decoration: underline;
+	color: white;
+}
+
+#BKY:hover {
+	
+	text-decoration: underline;
+	color: white;
+		
+}
+
+#BottomTable { 
+	
+	border: none;
+	
+
+}
+.footer {
+    background-color: #300404;
+    border-top: 5px solid #FFFFFF;
+    height: 200px;
+}
+#td4 {
+    text-align: left;
+    font-size: 16px;
+}
+#p13 {
+    font-size: 24px;
+}
+#p12 {
+    font-size: 25px;
+}
+.td4 {
+    background-image: inherit;
+}
+#img1 {
+	
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}	
+	
+#pshare {
+    text-align: left;
+}
+
+h5 {
+    color: antiquewhite;
+    font-size: 36px;
+}
+#pcopyright{
+	
+	color: antiquewhite
+} 
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.FINDOUTMORE {
+    background-color: red;
+    color: black;
+    border: 2px solid orange;
+    size: 13px;
+}
+
+.FINDOUTMORE:hover {
+  background-color: black;
+  color: white;
+}
+
+.SEEOFFERS {
+  background-color: red; 
+  color: black; 
+  border: 2px solid orange;
+}
+
+.SEEOFFERS:hover {
+ background-color: black;
+  color: white;
+}
+#share {
+	margin-left: -100px;
+}
+
+.GOOGLEPLAY {
+  background-color: black; 
+  color: white; 
+}
+
+.GOOGLEPLAY:hover {
+ background-color: grey;
+  color: black;
+}
+.APPSTORE {
+  background-color: black; 
+  color: white; 
+
+}
+
+.APPSTORE:hover {
+ background-color: grey;
+  color: black;
+}.terms {
+    font-size: 13px;
+}
+.logo {
+	
+	position: absolute;
+	margin-left: 200px;
+	
+}
+
+
+.fb:hover{
+	background: green;
+}
+
+
+
+
+
+
+
+
+#lang {
+}
